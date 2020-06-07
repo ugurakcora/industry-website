@@ -21,6 +21,12 @@
 		content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<meta name="yandex-verification" content="76f87c8527745769" />
 
+	<!-- Font Awesome CDN -->
+	<script src="https://kit.fontawesome.com/d0ac5c9d89.js" crossorigin="anonymous"></script>
+
+	<!-- cookie -->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 	<link rel="stylesheet" href="../assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;display=swap" rel="stylesheet">
@@ -235,10 +241,32 @@
 			</div>
 			<div class="copyright">
 				<div class="left">Copyright © Garanti Kapı. Her hakkı saklıdır.</div>
-				 <div class="right"><a href="#">Design by Uğur Akçora</a></div>
+				<div class="right"><a href="#">Design by Uğur Akçora</a></div>
 			</div>
 		</div>
 	</footer>
+
+	<!-- cookie -->
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#0e2460",
+					"text": "#ffffff"
+				},
+				"button": {
+					"background": "#009ee3",
+					"text": "#ffffff"
+				}
+			},
+			"content": {
+				"message": "Bu internet sitesinde, kullanıcı deneyimini geliştirmek ve internet sitesinin verimli çalışmasını sağlamak amacıyla çerezler kullanılmaktadır. Bu internet sitesini kullanarak bu çerezlerin kullanılmasını kabul etmiş olursunuz. Çerezleri nasıl kullandığımız, sildiğimiz ve engellediğimiz ile ilgili detaylı bilgi için lütfen Çerezler (Cookies) sayfasını okuyunuz.",
+				"dismiss": "Kabul Ediyorum",
+				"link": "Daha fazlası için tıklayın"
+			}
+		});
+	</script>
 </body>
 
 </html>
