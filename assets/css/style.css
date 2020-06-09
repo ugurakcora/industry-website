@@ -113,7 +113,7 @@ div.urun_page {
 div.urun_page div.left {
     width: 25%;
     float: left;
-    background-color: #599b47;
+    background-color: #009ee3;
     border-radius: 6px;
     box-sizing: border-box;
     padding: 20px;
@@ -128,7 +128,7 @@ div.urun_page div.left div.title {
     width: 100%;
     float: left;
     border-bottom: 1px solid #24355f;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 div.urun_page div.left a {
@@ -168,7 +168,7 @@ div.urun_page div.right div.title {
     color: #fff;
     width: 100%;
     float: left;
-    color: #599b47;
+    color: #0e2460;
     font-size: 26px
 }
 
