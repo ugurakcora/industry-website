@@ -36,7 +36,7 @@ div.urunler_page div.left div.title {
     width: 100%;
     float: left;
     border-bottom: 1px solid #24355f;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 div.urunler_page div.left a {
@@ -171,7 +171,8 @@ div.urun_page div.right div.title {
     width: 100%;
     float: left;
     color: #0e2460;
-    font-size: 26px
+    font-size: 26px;
+    text-transform: uppercase;
 }
 
 div.urun_page div.right div.text {
