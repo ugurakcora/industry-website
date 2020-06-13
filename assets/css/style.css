@@ -1230,3 +1230,15 @@ footer div.copyright div.right {
 .my-float {
     margin-top: 16px;
 }
+
+.yangin-list li{
+    list-style-type: none;
+}
+.yangin-list li::before{
+    content: "\2022";
+    color: #121c33;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1em;
+}
