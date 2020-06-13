@@ -4,7 +4,9 @@
 * {
     list-style-position: inside
 }
-
+b{
+    color: #0e2460;
+}
 div.wrapper {
     width: 1200px;
     margin: 0 auto
